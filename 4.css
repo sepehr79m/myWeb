@@ -1,0 +1,233 @@
+@font-face
+{
+    font-family: nazanin;
+    src: url('B Nazanin_www.Downloadha.com.ttf');
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: nazanin
+}
+.header
+{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 100%;
+    height: 500px;
+    background: url('photo-1578589335615-9e804277a5af.webp')-0px 0px;
+    background-size: cover;
+}
+@media screen and (min-width: 1300px)
+{
+    .header
+    {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .headfooter
+    {
+        position: absolute;
+        top: 500px;
+        right: 0px;
+        width: 100%;
+        height: 50px;
+        padding-right: 100px;
+        padding-left: 100px; 
+        line-height: 50px;
+        color: white;
+    }
+    body
+    {
+        padding-top: 50px;
+        padding-right: 100px;
+        padding-left: 100px; 
+        padding-bottom: 50px;
+        background: url('8.png');
+    }
+    .rightset
+    {
+        float: right;
+        width: 18%;
+        height: 600px;
+        border-left: 5px black solid;
+    }
+    .rightset p
+    {
+        text-align: justify;
+        text-indent: 4px;
+    }
+    .centerset
+    {
+        float: right;
+        width: 64%;
+        height: 600px;
+        background-color: white;
+    }
+    .leftset
+    {
+        float: right;
+        width: 18%;
+        height: 600px;
+        border-right: 5px solid black;
+    }
+    .footer
+    {
+        clear: both;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .up
+    {
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+    .down
+    {
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+}
+.headfooter a
+{
+    display: block;
+    float: right;
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: background-color .5s;
+}
+.headfooter a:hover
+{
+    background-color: rgba(30, 30, 30, .7);
+}
+#leftup p
+{
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    color: blue;
+    display: block;
+    transition: text-shadow .5s, font-size .5s;
+}
+#leftup a
+{
+    text-decoration: none;
+
+}
+#leftup p:hover
+{
+    text-shadow: 10px 10px 10px blue;
+    font-size: 20px;
+}
+#rightdown a
+{
+    text-decoration: none;
+}
+@media screen and (max-width:600px)
+{
+    .headfooter a
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1300px)
+{
+    .headfooter
+    {
+        position: absolute;
+        top: 450px;
+        right: 0px;
+        width: 100%;
+        height: 50px;
+        color: white;
+        line-height: 50px;
+    }
+    #center
+    {
+        position: absolute;
+        top: 500px;
+        right: 0px;
+        width: 100%;
+        height: 600px;
+        background-color: white;
+    }
+    #rightup
+    {
+        position: absolute;
+        top: 1100px;
+        right: 0px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        padding-top: 40px;
+        font-size: 18px;
+        
+    }
+    #rightup p
+    {
+        text-align: center;
+    }
+    #leftup
+    {
+        position: absolute;
+        top: 1400px;
+        right: 0px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    }
+    #rightdown
+    {
+        position: absolute;
+        top: 1700px;
+        right: 0px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    }
+    #leftdown
+    {
+        position: absolute;
+        top: 2000px;
+        right: 0px;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    }
+    #footer
+    {
+        position: absolute;
+        top: 2300px;
+        right: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+   
+}
+#rightdown a
+{
+    width: 100%;
+    padding-right: 20px;
+    color: blue;
+    background-image: url('list-style-image-png.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: color .5s;
+}
+#rightdown a:hover
+{
+    color: red;
+}
